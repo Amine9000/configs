@@ -1,0 +1,9 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: products-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/products_db
+    username: postgres
+    password: root
