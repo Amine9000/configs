@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: products-service
+  boot:
+    admin:
+      client:
+        url: ${ADMIN_SERVER:http://localhost:9091 }
   datasource:
     url: jdbc:postgresql://localhost:5432/products_db
     username: postgres
